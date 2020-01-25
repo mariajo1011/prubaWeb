@@ -1,0 +1,110 @@
+header{
+    background: url(assets/img/bg-header.jpg);
+    height: 500px;
+}
+
+h1, h2, h3, h4, h5, h6, p, span, form, a, button{
+    font-family: sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+    padding: 0;
+}
+
+.info-header{
+    width: 640px;
+    text-align: center;
+}
+
+
+header{
+    background: url(assets/img/bg-header.jpg); 
+    height: 500px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    background-size: cover;
+}
+
+.bg-1{
+    background-color: #f6f9f9;
+}
+
+.controlador{
+    width: 1100px;
+    margin: 0 auto;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.controlador-1{
+    width: 1100px;
+    margin: 0 auto;
+    padding: 35px 50px;
+    display: flex;
+}
+
+.controlador-2{
+    width: 1100px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+
+.controlador-3{
+    width: 1100px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+
+.controlador-4{
+    width: 1100px;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+
+
+.caja-servicios{
+    text-align: center; 
+    padding: 0 20px;
+    color: #2d3950;
+}
+
+.encabezado{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.caja-galeria{
+    padding: 10px 10px;
+}
+
+.fila{
+    display: flex;
+}
+
+.stay{
+    color:white;
+}
+
+.form-input{
+    width: 100%;
+    padding: 16px;
+    background-color:transparent;
+    border: 1px solid ;
+    color:#999;
+    margin-bottom: 15px;
+    border-radius: 4px;
+}
+
+.form-input::placeholder,
+.form-input::-ms-input-placeholder,
+.form-input:-ms-input-placeholder{
+    color: #9999;
+}
+
+.form{
+    width: 500px;
+    margin: 0 auto;
+}
